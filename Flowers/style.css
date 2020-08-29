@@ -1,0 +1,83 @@
+html,body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+.b1{
+width: 100%;
+height: 100%;
+margin: auto;
+background: url(https://images.pexels.com/photos/860564/pexels-photo-860564.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260) no-repeat 50% 50%;
+top: 0;
+display: table;
+background-size: cover; 
+
+}
+
+.b1 .in1{
+display: table-cell;
+vertical-align: middle;
+width: 100%;
+max-width: none;
+}
+
+.content{
+	max-width: 500px;
+	margin: auto;
+	text-align: center;
+}
+.content h1{
+	font-family:  Bebas Neue ;
+	color:  rgba(257, 257, 257, .9) ;
+	font-size: 900%;
+	font-weight: 100;
+	letter-spacing: 8px;;
+	
+}
+.content .btn{
+	border-radius: 9px;
+	color: white;
+	text-decoration: none;
+	font-family: Bebas Neue;
+	border: 1px solid;
+	padding: 7px 23px;
+	font-weight: 100;
+	font-size: large;
+
+}
+
+
+p{  font-family:  Bebas Neue;
+	font-size: 120%;
+	line-height: 200%;
+	color: rgb(29, 29, 27);
+	text-align: center;
+}
+
+.h12{
+	font-family: Bebas Neue;
+	text-align: center;
+	font-size: 60px;
+	font-weight: 100;
+}
+
+/*H1 Fade-In*/
+
+.fade-in1 {
+	animation: fadeIn 5s; 
+}
+
+@keyframes fadeIn {
+	from {
+	opacity: 0;	  	
+	
+}
+
+to {
+	opacity: 1;
+}
+}
+/* H1 Fade-In END*/
+
+/* H12 Fade-In */
